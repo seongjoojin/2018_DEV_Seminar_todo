@@ -37,7 +37,7 @@ HTML, CSS, Javascript -> DOM -> 브라우저 랜더링 -> npm -> vue -> wep pack
 
 ## Vue 학습 방법
 
-인스턴스 -> 컴포넌트 -> 컴포넌트 통신 -> 라우터 -> HTTP 통신 라이브러리 -> 
+인스턴스 -> 컴포넌트 -> 컴포넌트 통신 -> 라우터 -> HTTP 통신 라이브러리 -> 뷰 CLI 도구 ->  상태 관리 -> Reactivity, mixins, slots, render, ssr
 
 # Vue.js로 구현하는 Todo App
 
