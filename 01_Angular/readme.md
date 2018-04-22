@@ -58,3 +58,21 @@ MVC Framework ( backbone.js, angular.js ) -> Component Framework( Angular, React
 # 인터페이스
 
 타입스크립트의 인터페이스 이러한 구조를 가진다.
+
+# webpack 이란?
+
+- 모듈 번들러
+- npm과 조합시 gulp와 같은 태스크 러너의 대체도 가능
+- 시작 지점이 필요
+- 로더를 통해 파일이 모듈로 변경되어 디펜던시 그래프에 추가됨
+- 플러그인 시스템이 별도로 존재하여 확장된 기능을 제공
+
+# ES6 모듈 정의 (defalut)
+
+- 하나의 파일이 하나의 모듈이고 하나의 모듈은 default를 가짐
+- 동적할당 안됨
+
+# ES6 모듈 정의 (named export)
+
+- 하나의 모듈은 여러 export가 가능함
+
