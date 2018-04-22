@@ -1,0 +1,13 @@
+<div class="title-box">
+  <h1>나의 하루 ({{leftCounts}})</h1>
+  <h2>10월 28일</h2>
+</div>
+<div class="todo-container">
+  <fc-todo *ngFor="let todo of todos">
+    [todo]="todo"
+  </fc-todo>
+</div>
+<div class="add-todo">
+  <button>+</button>
+  <input type="text" placeholder="할 일 추가">
+</div>
