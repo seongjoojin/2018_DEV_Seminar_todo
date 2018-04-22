@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TodoMngtModule } from './todo-mngt/todo-mngt.module';
+import { CoreModule } from './core/core.module';
 
 
 @NgModule({
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TodoMngtModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
