@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Todo } from '../../shared/todo';
 
 @Component({
   selector: 'fc-todo',
@@ -7,9 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TodoComponent implements OnInit {
 
-  @Input() id: string;
-  @Input() done: boolean;
-  @Input() text: string;
+  @Input() todo: Todo;
 
   constructor() { 
    }

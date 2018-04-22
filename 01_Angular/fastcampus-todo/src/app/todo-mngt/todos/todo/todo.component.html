@@ -1,4 +1,4 @@
 <div class="todo">
-  <input type="checkbox" class="checkbox" name="" [id]="id" [checked]="done">
-  <label [for]="id">{{text}}</label>
+  <input type="checkbox" [(ngModel)]="done" class="checkbox" name="" [id]="todo.id">
+  <label [for]="todo.id">{{todo.text}}</label>
 </div>

@@ -3,7 +3,9 @@
   <h2>10월 28일</h2>
 </div>
 <div class="todo-container">
-  <fc-todo *ngFor="let todo of todos" [id]="todo.id" [done]="todo.done" [text]="todo.text"></fc-todo>
+  <fc-todo *ngFor="let todo of todos">
+    [todo]="todo"
+  </fc-todo>
 </div>
 <div class="add-todo">
   <button>+</button>
